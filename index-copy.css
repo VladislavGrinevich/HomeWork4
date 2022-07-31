@@ -1,31 +1,31 @@
 /* 1 */
 
-* {
+h1:hover {
   color: red;
 }
 
 /* 2 */
-* {
+input[type="text"] {
   border: 1px solid yellowgreen;
 }
 
 /* 3 */
-* {
+a:visited {
   color: lightgrey;
 }
 
 /* 4 */
-* {
+input:disabled {
   background-color: coral;
 }
 
 /* 5 */
-* {
+input[type="email"]:focus {
   background-color: cyan;
 }
 
 /* 6 */
-* {
+input:checked {
   width: 30px;
   height: 30px;
 }
@@ -52,21 +52,21 @@
 }
 
 /* 7 */
-* {
+.parent > .child {
   border: 3px solid darkorchid;
 }
 
 /* 8 */
-* {
+.parent1 *  {
   border: 3px solid darkorchid;
 }
 
 /* 9 */
-* {
+h2.title + p {
   color: forestgreen;
 }
 
 /* 10 */
-* {
+h2.title1 ~ p {
   color: fuchsia;
 }
